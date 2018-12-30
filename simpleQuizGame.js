@@ -54,7 +54,7 @@
   };
 Question.prototype.displayScore = function(score){
   console.log('your curent score is: ' + score);
-  console.log('------------')
+  console.log('------------------');
 }
   q1 = new Question('Is Javascript the coolest programming lunguage in the world? ', ['yes', 'no'], 0);
   q2 = new Question('What is the name of this game\'s ower? ', ['Yacine', 'Mohamed','Hichem'],0);
